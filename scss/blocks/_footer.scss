@@ -1,0 +1,36 @@
+.footer {
+  padding: 15px;
+  background-color: #222933;
+
+  & .container {
+    position: relative;
+  }
+
+  &__nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  &__link {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    color: #a5bbdc;
+    text-transform: uppercase;
+  }
+
+  &__markets {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+  }
+}
