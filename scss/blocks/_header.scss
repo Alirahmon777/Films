@@ -1,23 +1,18 @@
 .header {
   padding: 15px;
   background-color: #222933;
-  &__nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  &__list {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-  }
 
   &__link {
     font-size: 18px;
     font-style: italic;
-    font-weight: 400;
-    color: #A5BBDC;
-    text-transform: uppercase;
+    color: #a5bbdc;
+  }
+
+  &__item {
+    transition: all 0.3s linear;
+  }
+
+  &__item:hover {
+    transform: scale(1.1);
   }
 }

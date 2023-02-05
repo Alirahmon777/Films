@@ -1,0 +1,18 @@
+.filter {
+  margin-top: 30px;
+  padding: 15px 0;
+  background-color: #232f3d;
+
+  & .btn {
+    background-color: #304156;
+    color: #a5bbdc;
+
+    &:nth-child(1) {
+      background-color: #495b71;
+
+      &:active {
+        background: #565e64;
+      }
+    }
+  }
+}

@@ -19,12 +19,21 @@
     gap: 30px;
   }
 
+  &__item {
+    transition: all 0.3s linear;
+  }
+
+  &__item:hover {
+    transform: scale(1.1);
+  }
+
   &__link {
     font-size: 18px;
     font-style: italic;
     font-weight: 400;
     color: #a5bbdc;
     text-transform: uppercase;
+    transition: all 0.3s linear;
   }
 
   &__markets {
@@ -33,4 +42,16 @@
     gap: 30px;
     justify-content: center;
   }
+}
+
+#svg51:hover {
+  transition: none 0.3s ease-in;
+}
+
+#svg51:hover #path11 {
+  fill: transparent;
+}
+
+#svg52:hover path:nth-child(3) {
+  fill: transparent;
 }
